@@ -9,21 +9,19 @@
 ослы), а затем объединить их. Просмотреть содержимое созданного файла.
 Переименовать файл, дав ему новое имя (Друзья человека).
 
-![Task 1](https://user-images.githubusercontent.com/99810114/221401192-b1a5c5aa-d2e2-4531-8341-3b951ee9a5be.jpg)
+![Task 1]([https://user-images.githubusercontent.com/99810114/221401192-b1a5c5aa-d2e2-4531-8341-3b951ee9a5be.jpg](https://github.com/MC-DeniSka/itogwork/blob/main/screenshots/1.png))
 
 2. Создать директорию, переместить файл туда.
 
-![Task 2](https://user-images.githubusercontent.com/99810114/221401198-5f035f3b-dabb-425a-ae4a-b273822b26bc.jpg)
+![Task 2]([https://user-images.githubusercontent.com/99810114/221401198-5f035f3b-dabb-425a-ae4a-b273822b26bc.jpg](https://github.com/MC-DeniSka/itogwork/blob/main/screenshots/2.png))
 
 3. Подключить дополнительный репозиторий MySQL. Установить любой пакет
 из этого репозитория.
 
-![Task 3](https://user-images.githubusercontent.com/99810114/221401204-319e6e99-7b30-4da1-a0ca-db5d821146c8.jpg)
-![Task 4](https://user-images.githubusercontent.com/99810114/221401211-7563ea97-23dc-4f39-807a-fc6e4a68b598.jpg)
-
+![Task 3]([https://user-images.githubusercontent.com/99810114/221401204-319e6e99-7b30-4da1-a0ca-db5d821146c8.jpg](https://github.com/MC-DeniSka/itogwork/blob/main/screenshots/3.png)
 4. Установить и удалить deb-пакет с помощью dpkg.
 
-![Task 5](https://user-images.githubusercontent.com/99810114/221401222-7d436e91-2fdd-4389-8a95-c6ebc7e26300.jpg)
+![Task 4]([https://user-images.githubusercontent.com/99810114/221401222-7d436e91-2fdd-4389-8a95-c6ebc7e26300.jpg](https://github.com/MC-DeniSka/itogwork/blob/main/screenshots/4.png))
 
 5. Выложить [историю команд](https://github.com/MC-DeniSka/itogwork/blob/main/HistoryCommand.md) в терминале ubuntu
 6. Нарисовать [диаграмму](https://github.com/MC-DeniSka/itogwork/blob/main/diagram.png), в которой есть класс родительский класс, домашние
