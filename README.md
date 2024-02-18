@@ -230,19 +230,17 @@ FROM hamsters hm
 LEFT JOIN young_animals ya ON ya.name = hm.name
 LEFT JOIN pets ha ON ha.id = hm.genus_id;
 ```
-13. Создать [класс с Инкапсуляцией методов и наследованием по диаграмме](https://github.com/ILYA-NASA/Kennel_account_system/tree/main/System/src/Model).
-14. Написать [программу, имитирующую работу реестра домашних животных](https://github.com/ILYA-NASA/Kennel_account_system/tree/main/System/src).
+13. Создать [класс с Инкапсуляцией методов и наследованием по диаграмме](https://github.com/MC-DeniSka/itogwork/tree/main/System/src).
+14. Написать [программу, имитирующую работу реестра домашних животных](https://github.com/MC-DeniSka/itogwork/tree/main/System/src).
 В программе должен быть реализован следующий функционал:    
 	14.1 Завести новое животное    
 	14.2 определять животное в правильный класс    
 	14.3 увидеть список команд, которое выполняет животное    
 	14.4 обучить животное новым командам    
 	14.5 Реализовать навигацию по меню    
-15. Создайте [класс Счетчик](https://github.com/ILYA-NASA/Kennel_account_system/blob/main/System/src/Controller/Counter.java), у которого есть метод add(), увеличивающий̆
+15. Создайте [класс Счетчик](https://github.com/MC-DeniSka/itogwork/blob/main/System/src/Controller/Counter.java), у которого есть метод add(), увеличивающий̆
 значение внутренней̆ int переменной̆ на 1 при нажатии “Завести новое
 животное” Сделайте так, чтобы с объектом такого типа можно было работать в
 блоке try-with-resources. Нужно бросить исключение, если работа с объектом
 типа счетчик была не в ресурсном try и/или ресурс остался открыт. Значение
 считать в ресурсе try, если при заведении животного заполнены все поля.
-
-![Program](https://user-images.githubusercontent.com/99810114/221417421-93de1f4c-ad41-4f7e-a45d-edd5ec72f1d3.jpg)
