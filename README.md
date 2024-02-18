@@ -17,8 +17,7 @@
 
 ![Task 2](https://github.com/MC-DeniSka/itogwork/blob/main/screenshots/2.png)
 
-## 3. Подключить дополнительный репозиторий MySQL. Установить любой пакет
-из этого репозитория.
+## 3. Подключить дополнительный репозиторий MySQL. Установить любой пакетиз этого репозитория.
 
 ![Task 3](https://github.com/MC-DeniSka/itogwork/blob/main/screenshots/3.png)
 
@@ -32,7 +31,7 @@
 животных войдут классы: собаки, кошки, хомяки, а в класс вьючные животные
 войдут: Лошади, верблюды и ослы).
 
-![UML](https://user-images.githubusercontent.com/99810114/221403005-bfe39717-2d41-431d-bc03-f78a1aeb76df.jpg)
+[](https://github.com/MC-DeniSka/itogwork/blob/main/diagram.png)
 
 7. В подключенном MySQL репозитории создать базу данных “Друзья
 человека”
