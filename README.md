@@ -21,7 +21,7 @@
 ![Task 3]([https://user-images.githubusercontent.com/99810114/221401204-319e6e99-7b30-4da1-a0ca-db5d821146c8.jpg](https://github.com/MC-DeniSka/itogwork/blob/main/screenshots/3.png)
 4. Установить и удалить deb-пакет с помощью dpkg.
 
-![Task 4]([https://user-images.githubusercontent.com/99810114/221401222-7d436e91-2fdd-4389-8a95-c6ebc7e26300.jpg](https://github.com/MC-DeniSka/itogwork/blob/main/screenshots/4.png))
+![Task 4](https://github.com/MC-DeniSka/itogwork/blob/main/screenshots/4.png)
 
 5. Выложить [историю команд](https://github.com/MC-DeniSka/itogwork/blob/main/HistoryCommand.md) в терминале ubuntu
 6. Нарисовать [диаграмму](https://github.com/MC-DeniSka/itogwork/blob/main/diagram.png), в которой есть класс родительский класс, домашние
