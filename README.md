@@ -40,6 +40,7 @@ create database human_friends;
 
 ```
 8. Создать таблицы с иерархией из диаграммы в БД
+```sql
 use human_friends;
 
 create table animals
@@ -135,8 +136,10 @@ create table donkeys
     genus_id int,
     foreign key (genus_id) references pack_animals (id) on delete cascade on update cascade 
 );
+```
 9. Заполнить низкоуровневые таблицы именами(животных), командами
 которые они выполняют и датами рождения
+```sql
 insert into animals (class_name)
 values ('Вьючные'),('Домашние');
 
@@ -174,18 +177,20 @@ values ('Вася','2014-08-12','',2,'одногорбый','серый'),
 insert into donkeys (name,birthday,commands,genus_id,breed,color)
 values ('Осел','2019-11-02','',3,'','коричнивый'),
       ('Моисей','2022-06-06','',3,'','темно-серый');
+```
 10. Удалив из таблицы верблюдов, т.к. верблюдов решили перевезти в другой
 питомник на зимовку. Объединить таблицы лошади, и ослы в одну таблицу.
-
+```sql
 SET SQL_SAFE_UPDATES = 0;
 DELETE FROM camels;
 
 select name,birthday,commands from horses
 union select name,birthday,commands from donkeys;
-
+```
 11. Создать новую таблицу “молодые животные” в которую попадут все
 животные старше 1 года, но младше 3 лет и в отдельном столбце с точностью
 до месяца подсчитать возраст животных в новой таблице
+```sql
 create temporary table animals as
 select *,'Лошади' as genus from horses
 union select *,'Ослы' as genus from donkeys
@@ -196,9 +201,10 @@ union select *,'Хомяки' as genus from hamsters;
 create table young_animals as 
 select name,birthday,commands,genus,breed,color,timestampdiff(month,birthday,curdate()) as age_in_months
 from animals where birthday between adddate(curdate(),interval -3 year) and adddate(curdate(),interval -1 year);
-
+```
 12. Объединить все таблицы в одну, при этом сохраняя поля, указывающие на
 прошлую принадлежность к старым таблицам.
+```sql
 SELECT h.name, h.birthday, h.commands, pa.genus_name, ya.age_in_months
 FROM horses h
 LEFT JOIN young_animals ya ON ya.Name = h.Name
@@ -223,7 +229,7 @@ SELECT hm.name, hm.birthday, hm.commands, ha.genus_name, ya.age_in_months
 FROM hamsters hm
 LEFT JOIN young_animals ya ON ya.name = hm.name
 LEFT JOIN pets ha ON ha.id = hm.genus_id;
-
+```
 13. Создать [класс с Инкапсуляцией методов и наследованием по диаграмме](https://github.com/ILYA-NASA/Kennel_account_system/tree/main/System/src/Model).
 14. Написать [программу, имитирующую работу реестра домашних животных](https://github.com/ILYA-NASA/Kennel_account_system/tree/main/System/src).
 В программе должен быть реализован следующий функционал:    
