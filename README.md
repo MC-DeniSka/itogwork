@@ -18,13 +18,14 @@
 3. Подключить дополнительный репозиторий MySQL. Установить любой пакет
 из этого репозитория.
 
-![Task 3]([https://user-images.githubusercontent.com/99810114/221401204-319e6e99-7b30-4da1-a0ca-db5d821146c8.jpg](https://github.com/MC-DeniSka/itogwork/blob/main/screenshots/3.png)
+![Task 3]([https://user-images.githubusercontent.com/99810114/221401204-319e6e99-7b30-4da1-a0ca-db5d821146c8.jpg])
+
 4. Установить и удалить deb-пакет с помощью dpkg.
-##Task4
+5. 
 ![Task 4](https://github.com/MC-DeniSka/itogwork/blob/main/screenshots/4.png)
 
-5. Выложить [историю команд](https://github.com/MC-DeniSka/itogwork/blob/main/HistoryCommand.md) в терминале ubuntu
-6. Нарисовать [диаграмму](https://github.com/MC-DeniSka/itogwork/blob/main/diagram.png), в которой есть класс родительский класс, домашние
+6. Выложить [историю команд](https://github.com/MC-DeniSka/itogwork/blob/main/HistoryCommand.md) в терминале ubuntu
+7. Нарисовать [диаграмму](https://github.com/MC-DeniSka/itogwork/blob/main/diagram.png), в которой есть класс родительский класс, домашние
 животные и вьючные животные, в составы которых в случае домашних
 животных войдут классы: собаки, кошки, хомяки, а в класс вьючные животные
 войдут: Лошади, верблюды и ослы).
